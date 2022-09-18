@@ -25,6 +25,13 @@ header {
   justify-content: center;
 }
 
+header div {
+  display: flex;
+  padding: 4px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%);
+}
+
 header img {
   width: 120px;
   border-radius: 50%;
@@ -95,7 +102,4 @@ ul {
 .social {
   display: grid;
   gap: 24px;
-}
-
-.social-list {
 }
